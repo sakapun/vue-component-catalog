@@ -51,7 +51,8 @@
   .bottom .trans {
     bottom: 100%;
     position: absolute;
-    transition: translate 0.7s;
-    transform: translateY(100%)
+    transition: transform 0.4s cubic-bezier(0.22, 0.61, 0.36, 1);
+    /*transform: translateY(-100%);*/
+    width: 100%;
   }
 </style>
